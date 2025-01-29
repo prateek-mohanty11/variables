@@ -20,3 +20,19 @@ console.log(typeof "Prateek");
 console.table([typeof "Prateek"]);
 console.log(typeof null); //interview qns ...null is a object
 console.log(typeof undefined);
+
+//symbol
+let id = Symbol('12345')
+let anotherId = Symbol('12345')
+console.log(id === anotherId);//output => false coz , giving same value still symbols make uniqueness to them
+
+//Non Primitive or Reference type
+
+let a = ["Prateek", "Prince", "Coffee buddies"]
+console.table([a]);
+
+//Object
+let myObj = {
+    name: "Prateek",
+    age: 18
+}// inside the curly braces those are objects and ',' should be given
