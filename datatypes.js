@@ -36,3 +36,8 @@ let myObj = {
     name: "Prateek",
     age: 18
 }// inside the curly braces those are objects and ',' should be given
+
+const myFunction = function () {--
+    console.log("HIii");
+}
+console.log(typeof myFunction);
